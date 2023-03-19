@@ -191,7 +191,7 @@ bot.on('ready', async() => {
                 }
             }
             bot.channels.cache.get(chanIDFEAR).send({embed: [embed], files: [file]});
-            console.log("image envoye")
+            console.log("image sent")
         }
     }, 1000)
 
@@ -218,7 +218,7 @@ bot.on('ready', async() => {
             const fearClass = data['data'][0]['value_classification'];
 
 	    bot.channels.cache.get(chanIDFEAR).send(`${allDate} Fear and greed index : ${fearValue}, ${fearClass} `)
-	    console.log("fear value envoye")
+	    console.log("fear value sent")
         }
 
 
@@ -325,7 +325,7 @@ bot.on('ready', async() => {
                 }
             }
             bot.channels.cache.get(chanIDCHART).send({embed: [embed], files: [file]});
-            console.log("image envoye")
+            console.log("image sent")
 
         }
 
@@ -478,7 +478,7 @@ bot.on('ready', async() => {
                     }
                 }
                 bot.channels.cache.get(chanIDCHART).send({embed: [embed], files: [file]});
-                console.log("image envoye")
+                console.log("image sent")
 
             }
         }
@@ -621,7 +621,7 @@ bot.on('ready', async() => {
                     }
                 }
                 bot.channels.cache.get(chanIDCHART).send({embed: [embed], files: [file]});
-                console.log("image envoye")
+                console.log("image sent")
 
             }
 
